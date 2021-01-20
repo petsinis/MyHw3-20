@@ -157,12 +157,6 @@ int main()
     cout<<endl;
 
 
-    //typedef int(*mymeth)(void *);
-    //mymeth *ptr = (mymeth *)c4;
-    //cout<<ptr<<endl;
-    //cout<<ptr+1<<endl;
-    //cout<<(*(*(ptr)))(c4)<<endl;
-
 
 
     void * vtblAddress = *(void **)c4;
